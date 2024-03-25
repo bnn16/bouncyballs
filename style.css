@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    animation: x 13s linear infinite ;
+    position: absolute;
+}
+.input-div{
+    padding: 10px;
+}
